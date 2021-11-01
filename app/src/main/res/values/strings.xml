@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BasicWorkManager</string>
+    <string name="start_work">Start Work</string>
+    <string name="work_status">Work Status</string>
+    <string name="reset_status">Reset Status</string>
+    <string name="work_on_ui_thread">Work on UI Thread</string>
 </resources>

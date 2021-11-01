@@ -5,29 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    >
 
     <Button
         android:id="@+id/btnStartWork"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Work" />
+        android:text="@string/start_work" />
 
     <Button
         android:id="@+id/btnWorkStatus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Work Status" />
+        android:text="@string/work_status" />
 
     <Button
         android:id="@+id/btnResetStatus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reset Status" />
+        android:text="@string/reset_status" />
 
     <Button
         android:id="@+id/btnWorkUIThread"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Work on UI Thread" />
+        android:text="@string/work_on_ui_thread" />
 </LinearLayout>

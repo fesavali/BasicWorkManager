@@ -1,4 +1,4 @@
-package com.douglasstarnes.basicworkmanager
+package com.savaliscodes.basicworkmanager
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

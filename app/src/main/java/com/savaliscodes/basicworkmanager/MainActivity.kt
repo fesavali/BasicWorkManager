@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
         btnResetStatus.setOnClickListener {
             WorkStatusSingleton.workComplete = false
-        }
+        } //line
 
         btnWorkUIThread.setOnClickListener {
             Thread.sleep(10000)
